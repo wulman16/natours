@@ -1,0 +1,18 @@
+// Set basic reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// Define what 1rem is while respecting user's custom font size
+html {
+  font-size: 62.5%;
+}
+
+// Include padding and border in an element's total height and width
+body {
+  box-sizing: border-box;
+}
