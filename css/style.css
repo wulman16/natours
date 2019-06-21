@@ -140,7 +140,7 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: orangered;
+    background-color: pink;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
